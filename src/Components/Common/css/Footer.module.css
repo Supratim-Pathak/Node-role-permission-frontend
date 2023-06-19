@@ -1,0 +1,23 @@
+.footerActive {
+  margin-left: 0px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.background {
+  background-color: #111;
+  color: #818181;
+}
+
+@media screen and (max-width: 450px) {
+  .footer-responsive {
+    margin-left: 0px;
+  }
+}

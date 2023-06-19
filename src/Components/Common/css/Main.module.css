@@ -1,0 +1,14 @@
+.main {
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-left:250px;
+  }
+.mainActive {
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-left:0px;
+  }
+
+  @media screen and (max-width: 450px) {
+    .main {margin-left: 0px;}
+  }
